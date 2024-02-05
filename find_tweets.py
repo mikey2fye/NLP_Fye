@@ -22,7 +22,7 @@ def find_pres_tweets(file):
     return "There are " + str(tweets) + " tweets about the presidential debate that reference Joe Biden, Donald Trump, and Chris Walllace."
 
 
-# find_all_tweets("all_tweets.txt")
+# print(find_all_tweets("all_tweets.txt"))
 print(find_pres_tweets("presidential_debate_tweets.txt"))
 
     
