@@ -5,7 +5,7 @@ def find_all_tweets(file):
 
 def find_pres_tweets(file): 
     tweets = 0
-    buzzwords = ["Trump", "@donaldtrump", "President", "president", "DonaldTrump", "Joe Biden", "Donald Trump", "Chris Wallace", "ChrisWallace", "@chriswallace", "Biden", "Joe", "JoeBiden," "@joebiden"]
+    buzzwords = ["[Tt]rump", "@[Dd]onald[Tt]rump", "[Pp]resident", "[Dd]onald[Tt]rump", "[Jj]oe [Bb]iden", "[Dd]onald [Tt]rump", "[Cc]hris [Ww]allace", "[Cc]hris[Ww]allace", "@[Cc]hris[Ww]allace", "[Bb]iden", "[Jj]oe", "[Jj]oe[Bb]iden," "@[Jj]oe[Bb]iden"]
     t = open(file, "w")
     with open("presidential_debate.txt", "r") as f:
         for line in f.readlines():
